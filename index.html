@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuththara </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <h1>Hello, I'm Anuththara</h1>
+    <p>Diploma in Computer Science with AI Student</p>
+    <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})"></div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I am an enthusiastic student at the National Institute of Business Management (NIBM), 
+          currently pursuing a Diploma in Computer Science with Artificial Intelligence. My passion 
+          lies in exploring cutting-edge technologies, web development, and innovative AI solutions 
+          that can make a real-world impact.
+        </p>
+        <p style="margin-top: 1rem;">
+          I have developed a strong foundation in programming languages including HTML, CSS, JavaScript, 
+          and Python. My learning journey has also taken me into the fascinating world of robotics, 
+          where I've gained hands-on experience with Arduino-based projects. Additionally, I possess 
+          knowledge in digital marketing strategies, SEO optimization, and modern web technologies.
+        </p>
+        <p style="margin-top: 1rem;">
+          I'm always eager to learn new skills, take on challenging projects, and collaborate with 
+          others to create innovative solutions that push the boundaries of technology.
+        </p>
+      </div>
+      <div class="education">
+        <h3>Education Background</h3>
+        <p><strong>Institution:</strong> National Institute of Business Management (NIBM)</p>
+        <p><strong>Program:</strong> Diploma in Computer Science with Artificial Intelligence</p>
+        <p><strong>Focus Areas:</strong> Web Development, AI & Machine Learning, Programming</p>
+        <p style="margin-top: 1rem;">
+          <strong>Core Competencies:</strong> Full-Stack Web Development, Database Design, 
+          Algorithm Development, Artificial Intelligence Fundamentals
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>E-Commerce Platform</h3>
+        <p>
+          A dummy e-commerce website project featuring product listings, shopping cart functionality, 
+          and user authentication. This project demonstrates understanding of full-stack development 
+          principles and modern web design patterns.
+        </p>
+        <span>HTML, CSS, JavaScript</span>
+      </div>
+      
+      <div class="project-card">
+        <h3>Tourist  Management App</h3>
+        <p>
+          It is app in sri lanka chama sri drstinations.
+        </p>
+        <span>HTML, CSS, JavaScript</span>
+      </div>
+      
+      <div class="project-card">
+        <h3>Smart Home Control System</h3>
+        <p>
+          A prototype smart home automation system using Arduino microcontroller. This demonstration 
+          project includes sensor integration, motor control, and basic IoT concepts for home automation.
+        </p>
+        <span>Arduino, C++, IoT, Sensors</span>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">HTML5</span>
+          <span class="skill-percent">60%</span>
+        </div>
+        <div class="bar">
+          <div class="progress html"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">CSS3</span>
+          <span class="skill-percent">60%</span>
+        </div>
+        <div class="bar">
+          <div class="progress css"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-percent">50%</span>
+        </div>
+        <div class="bar">
+          <div class="progress js"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Python</span>
+          <span class="skill-percent">70%</span>
+        </div>
+        <div class="bar">
+          <div class="progress python"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">AI & Machine Learning</span>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="bar">
+          <div class="progress ai"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Robotics & Arduino</span>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="bar">
+          <div class="progress robotics"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-header">
+          <span class="skill-name">Digital Marketing & SEO</span>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="bar">
+          <div class="progress marketing"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="formMessage" class="message"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Anuththara. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
